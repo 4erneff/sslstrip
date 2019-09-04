@@ -1,0 +1,20 @@
+{
+  "name": "sslstrip",
+  "version": "1.0.0",
+  "description": "Ssl strippint tool",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js --port process.env.port || 8001",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4erneff/sslstrip.git"
+  },
+  "author": "4erneff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/4erneff/sslstrip/issues"
+  },
+  "homepage": "https://github.com/4erneff/sslstrip#readme"
+}
